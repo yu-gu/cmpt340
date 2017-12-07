@@ -1,0 +1,18 @@
+Notes for CMPT 340
+Lec1:
+Tutorials starts next week
+Programming: everithing happens in order
+Programming Concurrently: default
+sequantial computing: a special case of that 
+Message passing: mahince send message to each other
+goal: Simplify the module of program
+Encapsulated functions: send message to modify
+Main focus: functional programming——powerful features
+Also: concurrent progrmming Logic programming
+
+slide1 20
+delta y / delta x
+
+
+
+

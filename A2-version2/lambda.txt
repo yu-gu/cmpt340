@@ -1,0 +1,25 @@
+—Name:YU GU StudentNumber:11195367 NSID:yug242
+
+
+definitions of boolean constants and operators:
+true = \x.\y.(x)
+false = \x.\y.(y)
+not = \v.\w.\x.(v x w)
+and = \v.\w.(v w v)
+
+
+  and true (not true)
+
+= \v.\w. (v w v) true (not true)
+= \w. (true w true) (not true)
+= (true (not true) true)
+= (\x.\y.(x) (not true) true)
+= (not true)
+= \v.\w.\x.(v x w) true
+= \w.\x.(true x w)
+= \w.\x.(\x.\y.(x) x w)
+= \w.\x.(\y.(x) w)
+= \w.\x.(x)
+= \x.\y.(y)
+= false
+

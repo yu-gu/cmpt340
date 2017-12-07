@@ -1,0 +1,12 @@
+*Main> consecutive [1,2,3,4]
+1
+*Main> consecutive [1,2,3,4,4]
+2
+*Main> consecutive [1,1,2,2,2,3,3]
+3
+*Main> consecutive []
+0
+*Main> consecutive [0,1,2]
+1 
+
+

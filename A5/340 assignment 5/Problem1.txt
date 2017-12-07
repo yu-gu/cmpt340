@@ -1,0 +1,34 @@
+a) pilots(A, london), pilots(london, paris)
+false
+london can not assign to paris
+b) point(X, Y, Z), point(X1, Y1, Z1)
+true
+X = X1,
+Y = Y1,
+Z = Z1.
+c) letter(C), word(letter)
+false
+letter can not assign to word (fact can not use as var)
+d) noun(alpha), alpha
+false
+var must have content then been assign
+e) 'student', student
+true
+string can assign to var
+f) f(X, X), f(a, b)
+false
+X can not both ref to a and b
+g) f(X, a(b, c)), f(Z, a(Z, c))
+true
+X = Z, Z = b.
+h) f(c, a(b, c)), f(Z, a(Z, c))
+false
+Z can not both assign to c and b
+i) f(X, a(b, c)), f(d, a(Z, c))
+true
+X = d,
+Z = b.
+j) g(Z, f(A, 17, B), A+B, 17), g(C, f(D, D, E), C, E)
+true
+Z = C, C = 17+17,
+A = B, B = D, D = E, E = 17.

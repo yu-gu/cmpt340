@@ -1,0 +1,89 @@
+
+Problem 1.
+(a)No
+london cannot be assigned to paris as two different facts.
+
+
+(b)Yes
+mgu{
+X=X1,
+Y=Y1,
+Z=Z1
+}
+
+(c)No.
+letter and word cannot be unified because these are two differenc facts.
+
+
+(d)No.
+One rule is a complex term unify if they have the same functor and arity (number of arguments)
+In this case,  noun(alpha) has one functor but alpha does not.
+
+
+(e)Yes.
+student('student').
+String(student)can be assigned to fact as a value.
+
+
+(f)No.
+X cannot be assigned to both a and b.
+It violates the condition of unification that "The variable instantiations are compatible"
+
+
+(g)Yes.
+mgu{
+X=Z,
+Z=b
+}
+
+
+(h)No.
+Z can not be assigned to both c and b.
+It violates the condition of unification that "The variable instantiations are compatible"
+
+
+(i)Yes.
+mgu{
+X=d,
+Z=b
+}
+
+(j)Yes.
+mgu{
+Z = C = 17+17 = 34,
+A = B = D = E = 17.
+}
+
+
+
+——————————————————————————————————————————————————————————————————————
+Problem4
+
+a) Is Camilla the step mother of Harry? [should respond with yes]
+
+?- stepmother_of(camilla,harry).
+true.
+
+b) Who are the children of Charles? [should respond with William and Harry]
+
+?- child_of(X,charles).
+X = william 
+X = harry.
+
+c) Who are the step children of Camilla? [should respond with William and Harry]
+
+?- stepmother_of(camilla,X).
+X = william 
+X = harry.
+
+d) Who are the grandparents of both William and Harry? [should respond with Elizabeth and Philip]
+
+?- grandchild_of(william,X), grandchild_of(harry,X).
+X = elizabeth 
+X = philip.
+
+
+
+
+
+

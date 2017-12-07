@@ -1,0 +1,6 @@
+*Main> nshuffle 3 4
+"bbbbrrrr"
+*Main> nshuffle 1 2
+"brbr"
+*Main> nshuffle 4 5
+"bbrbrbrbrr"

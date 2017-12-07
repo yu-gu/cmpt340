@@ -1,0 +1,20 @@
+
+
+*Main> curry1 f2 1 2
+-1
+*Main> curry1 f2 2 5
+-3
+*Main> uncurry1 f1(1,2)
+3
+*Main> curry1 f2 (-1) 1
+-2
+*Main> curry1 f2 0 1
+-1
+*Main> curry1 f2 1 4
+-3
+*Main> uncurry1 f1 (1,4)
+5
+*Main> uncurry1 f1 (-1,4)
+3
+
+

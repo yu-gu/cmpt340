@@ -1,0 +1,21 @@
+Please enter number of couple:
+3
+M0 - W0
+M0 preferenceList: W0, W2, W1, 
+W0 preferenceList: M0, M2, M1, 
+M1 - W1
+M1 preferenceList: W1, W0, W2, 
+W1 preferenceList: M0, M1, M2, 
+M2 - W2
+M2 preferenceList: W1, W0, W2, 
+W2 preferenceList: M1, M0, M2, 
+
+
+Please enter number of couple:
+2
+M0 - W0
+M0 preferenceList: W0, W1, 
+W0 preferenceList: M0, M1, 
+M1 - W1
+M1 preferenceList: W0, W1, 
+W1 preferenceList: M0, M1, 

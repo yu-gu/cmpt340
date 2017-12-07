@@ -1,0 +1,40 @@
+
+Please give the Fibonacci index:
+0
+Your fibonacci index is: 0
+Your fibonacci result is: 0
+
+Please give the Fibonacci index:
+2
+Your fibonacci index is: 2
+Your fibonacci result is: 1
+
+Please give the Fibonacci index:
+4
+Your fibonacci index is: 4
+Your fibonacci result is: 3
+
+Please give the Fibonacci index:
+5
+Your fibonacci index is: 5
+Your fibonacci result is: 5
+
+Please give the Fibonacci index:
+7
+Your fibonacci index is: 7
+Your fibonacci result is: 13
+
+Please give the Fibonacci index:
+1
+Your fibonacci index is: 1
+Your fibonacci result is: 1
+
+Please give the Fibonacci index:
+3
+Your fibonacci index is: 3
+Your fibonacci result is: 2
+
+Please give the Fibonacci index:
+6
+Your fibonacci index is: 6
+Your fibonacci result is: 8

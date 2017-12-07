@@ -1,0 +1,122 @@
+-- File Name: studentDatabaseSampleOutput.txt
+-- Author: David Kreiser
+-- Class: CMPT 340 Tutorial 5
+-- Sample output for the completed student database 
+
+*Main> sarah
+Name: Sarah Smith | NSID: sas343 | IDNum: 11121364 | Status: Active Student | Marks: [(10,10),(6,6),(0,10),(8,10)]
+*Main> alex
+Name: Alex Murphy | NSID: aum400 | IDNum: 11121489 | Status: Active Student | Marks: [(8,10),(4,6),(3,10),(4,10)]
+*Main> emily
+Name: Emily Lam | NSID: eol223 | IDNum: 11142109 | Status: Active Student | Marks: [(2,10),(5,6),(9,10),(8,10)]
+*Main> nathan
+Name: Nathan Martin | NSID: nem055 | IDNum: 11199032 | Status: Active Student | Marks: [(9,10),(5,6),(2,10),(8,10)]
+*Main> emma
+Name: Emma Brown | NSID: emm675 | IDNum: 11149502 | Status: Active Student | Marks: [(5,10),(4,6),(5,10),(10,10)]
+*Main> david
+Name: David Roy | NSID: dlr120 | IDNum: 11173800 | Status: Active Student | Marks: [(7,10),(3,6),(6,10),(6,10)]
+
+*Main> jessica
+Name: Jessica Tremblay | NSID: jet747 | IDNum: 11184823 | Status: Withdrawn Student
+*Main> hannah
+Name: Hannah Wilson | NSID: haw002 | IDNum: 11103953 | Status: Withdrawn Student
+
+*Main> cmpt340
+Course: CMPT 340 -- Students Enrolled:
+    Name: Sarah Smith | NSID: sas343 | IDNum: 11121364 | Status: Active Student | Marks: [(10,10),(6,6),(0,10),(8,10)]
+    Name: Alex Murphy | NSID: aum400 | IDNum: 11121489 | Status: Active Student | Marks: [(8,10),(4,6),(3,10),(4,10)]
+    Name: Emily Lam | NSID: eol223 | IDNum: 11142109 | Status: Active Student | Marks: [(2,10),(5,6),(9,10),(8,10)]
+    Name: Nathan Martin | NSID: nem055 | IDNum: 11199032 | Status: Active Student | Marks: [(9,10),(5,6),(2,10),(8,10)]
+    Name: Emma Brown | NSID: emm675 | IDNum: 11149502 | Status: Active Student | Marks: [(5,10),(4,6),(5,10),(10,10)]
+    Name: David Roy | NSID: dlr120 | IDNum: 11173800 | Status: Active Student | Marks: [(7,10),(3,6),(6,10),(6,10)]
+    Name: Jessica Tremblay | NSID: jet747 | IDNum: 11184823 | Status: Withdrawn Student
+    Name: Hannah Wilson | NSID: haw002 | IDNum: 11103953 | Status: Withdrawn Student
+*Main> cmpt498
+Course: CMPT 498 -- Students Enrolled:
+    Name: Hannah Wilson | NSID: haw002 | IDNum: 11103953 | Status: Withdrawn Student
+    Name: Emma Brown | NSID: emm675 | IDNum: 11149502 | Status: Active Student | Marks: [(5,10),(4,6),(5,10),(10,10)]
+    Name: David Roy | NSID: dlr120 | IDNum: 11173800 | Status: Active Student | Marks: [(7,10),(3,6),(6,10),(6,10)]
+    Name: Sarah Smith | NSID: sas343 | IDNum: 11121364 | Status: Active Student | Marks: [(10,10),(6,6),(0,10),(8,10)]
+
+*Main> david == david
+True
+*Main> emma == david
+False
+*Main> david
+Name: David Roy | NSID: dlr120 | IDNum: 11173800 | Status: Active Student | Marks: [(7,10),(3,6),(6,10),(6,10)]
+*Main> let jonathon = Active "Jonathon Ross" "jor599" 11173800 []
+*Main> david == jonathon
+True
+
+*Main> isActive sarah
+True
+*Main> isActive alex
+True
+*Main> isActive emily
+True
+*Main> isActive nathan
+True
+*Main> isActive emma
+True
+*Main> isActive david
+True
+*Main> isActive jessica
+False
+*Main> isActive hannah
+False
+
+*Main> getMarks sarah
+[(10,10),(6,6),(0,10),(8,10)]
+*Main> getMarks alex
+[(8,10),(4,6),(3,10),(4,10)]
+*Main> getMarks emily
+[(2,10),(5,6),(9,10),(8,10)]
+*Main> getMarks nathan
+[(9,10),(5,6),(2,10),(8,10)]
+*Main> getMarks emma
+[(5,10),(4,6),(5,10),(10,10)]
+*Main> getMarks david
+[(7,10),(3,6),(6,10),(6,10)]
+*Main> getMarks jessica
+[]
+*Main> getMarks hannah
+[]
+
+*Main> getPercentMarks sarah
+[100.0,100.0,0.0,80.0]
+*Main> getPercentMarks alex
+[80.0,66.66666666666666,30.0,40.0]
+*Main> getPercentMarks emily
+[20.0,83.33333333333334,90.0,80.0]
+*Main> getPercentMarks nathan
+[90.0,83.33333333333334,20.0,80.0]
+*Main> getPercentMarks emma
+[50.0,66.66666666666666,50.0,100.0]
+*Main> getPercentMarks david
+[70.0,50.0,60.0,60.0]
+*Main> getPercentMarks jessica
+[]
+*Main> getPercentMarks hannah
+[]
+
+*Main> getAverage sarah
+70.0
+*Main> getAverage alex
+54.166666666666664
+*Main> getAverage emily
+68.33333333333334
+*Main> getAverage nathan
+68.33333333333334
+*Main> getAverage emma
+66.66666666666666
+*Main> getAverage david
+60.0
+*Main> getAverage jessica
+0.0
+*Main> getAverage hannah
+0.0
+
+*Main> courseAverage cmpt340
+64.58333333333333
+*Main> courseAverage cmpt498
+65.55555555555556

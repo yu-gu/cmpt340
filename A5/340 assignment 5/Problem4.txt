@@ -1,0 +1,13 @@
+?- stepmother_of(camilla,harry).
+true .
+
+?- child_of(X,charles).
+X = william ;
+X = harry.
+
+?- stepmother_of(camilla,X).
+X = william ;
+X = harry .
+
+?- |    grandchild_of(william,X),grandchild_of(harry,X).X = philip ;
+X = elizabeth 
